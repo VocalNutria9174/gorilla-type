@@ -1,4 +1,7 @@
 # gorilla-type
+![gorilla-icon](gorllia-icon.png)
+
+
 A typing test made with the original monkey-type from Code Pen!
 
 - You can view the original monkey-type on [CodePen](https://codepen.io/Miodec/pen/wvaQQRR/).
