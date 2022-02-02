@@ -1,5 +1,5 @@
 # gorilla-type
-![gorilla-icon](gorllia-icon.png)
+![gorilla-icon](gorilla-icon.png)
 
 
 ## Current Version
