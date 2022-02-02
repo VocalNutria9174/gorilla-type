@@ -2,6 +2,9 @@
 ![gorilla-icon](gorllia-icon.png)
 
 
+## Current Version
+The download and website version is: `v1.1`!
+
 A typing test made with the original monkey-type from Code Pen!
 
 - You can view the original monkey-type on [CodePen](https://codepen.io/Miodec/pen/wvaQQRR/).
