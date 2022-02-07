@@ -63,18 +63,18 @@
         </div>
         <div class="button" tabindex="2">
           <div class="icon">
-            <i class="fas fa-fw fa-info"></i>
+            <a title="About the site!" href="https://github.com/VocalNutria9174/gorilla-type/blob/main/README.md"><i class="fas fa-fw fa-info"></i>
           </div>
           <div class="text">
             About
-          </div>
+              </div></a>
         </div>
         <div class="button" tabindex="2">
           <div class="icon">
-            <i class="fas fa-fw fa-cog"></i>
+            <i title="Open the Command Line!" onclick="showCommandLine()" class="fas fa-fw fa-cog"></i>
           </div>
           <div class="text">
-            Settings
+            Commands
           </div>
         </div>
       </div>
@@ -1186,6 +1186,14 @@ let commands = {
     exec: () => {
       currentCommands = commandsWordCount;
       showCommandLine();
+    } },
+  
+  {
+    id: "",
+    display: "Close Command Line...",
+    subgroup: true,
+    exec: () => {
+      hideCommandLine();
     } }] };
 
 
