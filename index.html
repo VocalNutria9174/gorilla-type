@@ -61,7 +61,7 @@
             Test
           </div>
         </div>
-        <div class="button" tabindex="2">
+        <div onclick="readmeRedir()" title="Info - README" class="button" tabindex="2">
           <div class="icon">
             <i class="fas fa-fw fa-info"></i>
           </div>
@@ -1416,6 +1416,10 @@ function displayFoundCommands() {
 }
   $(window).on('load', function() {
    restartTest();});
+    
+    function readmeRedir() {
+        window.location.href = "https://github.com/VocalNutria9174/gorilla-type/blob/main/README.md";
+    }
     </script>
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
