@@ -3,7 +3,7 @@
 
 
 ## Current Version
-The download and website version of gorilla-type is: `v1.3`!
+The download and website version of gorilla-type is: `v1.4`!
 
 A typing test made with the original monkey-type from Code Pen!
 
