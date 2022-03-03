@@ -1,7 +1,7 @@
-<!-- Gorilla-Type is based off of the original monkeytype from CodePen. -->
-<!-- https://codepen.io/Miodec/pen/wvaQQRR -->
+<!-- Gorilla-Type is based off of the original monkeytype from CodePen. monkeytype is made by Miodec. -->
+<!-- https://codepen.io/Miodec/pen/wvaQQRR/ -->
 <!-- Remade by: VocalNutria9174 -->
-<!-- [https://github.com/VocalNutria9174/epic-site] -->
+<!-- https://github.com/VocalNutria9174/epic-site/ -->
                    <!-- [|=)] -->
 <!DOCTYPE html>
 <html lang="en">
@@ -71,10 +71,18 @@
         </div>
         <div class="button" tabindex="2">
           <div class="icon">
-            <i title="Open Command Line!" onclick="showCommandLine()" class="fas fa-fw fa-cog"></i>
+            <i title="Open Command Line!" onclick="showCommandLine();" class="fas fa-fw fa-cog"></i>
           </div>
           <div class="text">
             Commands
+          </div>
+        </div>
+        <div class="button" tabindex="2">
+          <div class="icon">
+            <i title="Enable DevMode!" onclick="devModeEnable();" class="fas fa-tools"></i>
+          </div>
+          <div class="text">
+            DevTools
           </div>
         </div>
       </div>
@@ -151,6 +159,7 @@
 <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js'></script>
+<script src="//cdn.jsdelivr.net/npm/eruda"></script>
 <script id="rendered-js" >
 var words = [
 "the",
@@ -1417,9 +1426,13 @@ function displayFoundCommands() {
   $(window).on('load', function() {
    restartTest();});
     
-    function readmeRedir() {
-        window.location.href = "https://github.com/VocalNutria9174/gorilla-type/blob/main/README.md";
-    }
+function readmeRedir() {
+    window.location.href = "https://github.com/VocalNutria9174/gorilla-type/blob/main/README.md";
+}
+    
+function devModeEnable() {
+    location.replace("dev-mode.html")
+}
     </script>
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
@@ -1427,7 +1440,7 @@ function displayFoundCommands() {
   --main-color: #48e072;
   --sub-color: #646669;
   --bg-color: #323437;
-  --caret-color: #86eba2;
+  --caret-color: #7cee9d;
   --active-word-color: #444;
   --roundness: 0.25rem;
 }
